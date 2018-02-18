@@ -104,26 +104,26 @@ function pre_r($array) {
         <div class="container" style=" padding-top: 100px">
             <?php
             $connect = mysqli_connect('localhost', 'root', '', 'cart');
-//
-//            switch ($category) {
-//                case "General":
-//                    $query = 'SELECT * FROM products ORDER by id ASC';
-//                    $result = mysqli_query($connect, $query);
-//                    return $result;
-//                    break;
-//                case "Computers":
-//                    $query = "SELECT * FROM `products` WHERE `category` = 'computer' ORDER by id ASC";
-//                    $result = mysqli_query($connect, $query);
-//                    break;
-//                case "Laptops":
-//                    $query = "SELECT * FROM `products` WHERE `category` = 'laptop' ORDER by id ASC";
-//                    $result = mysqli_query($connect, $query);
-//                    break;
-//                case "Cameras":
-//                    $query = "SELECT * FROM `products` WHERE `category` = 'camera' ORDER by id ASC";
-//                    $result = mysqli_query($connect, $query);
-//                    break;
-//            }
+
+            switch ($category) {
+                case "General":
+                    $query = 'SELECT * FROM products ORDER by id ASC';
+                    $result = mysqli_query($connect, $query);
+                    return $result;
+                    break;
+                case "Computers":
+                    $query = "SELECT * FROM `products` WHERE `category` = 'computer' ORDER by id ASC";
+                    $result = mysqli_query($connect, $query);
+                    break;
+                case "Laptops":
+                    $query = "SELECT * FROM `products` WHERE `category` = 'laptop' ORDER by id ASC";
+                    $result = mysqli_query($connect, $query);
+                    break;
+                case "Cameras":
+                    $query = "SELECT * FROM `products` WHERE `category` = 'camera' ORDER by id ASC";
+                    $result = mysqli_query($connect, $query);
+                    break;
+            }
 
             $query = 'SELECT * FROM products ORDER by id ASC';
             $result = mysqli_query($connect, $query);
@@ -161,13 +161,7 @@ function pre_r($array) {
             if (isset($_SESSION['shopping_cart'])) {
                 if (count($_SESSION['shopping_cart']) > 0) {
                     ?>
-                    <script>
-                        function quantity(newQuantity) {
-                            var quantity = document.getElementById('quantity');
-                            quantity = newQuantity;
-                            return quantity;
-                        }
-                    </script>
+                   
                     <div style="clear:both"></div>  
                     <br />  
                     <div class="table-responsive">  
