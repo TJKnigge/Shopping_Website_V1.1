@@ -1,0 +1,106 @@
+.products {
+    border: 1px solid #333;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+.table {
+    margin: 0px auto;
+    float: none;
+}
+.row {
+    margin: 0px auto;
+    float: none;
+}
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+.button {
+    background: #6394F8;
+    color:white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+}
+.button:visited {
+    text-decoration: none;
+    color: white;
+}
+.button:hover {
+    background: #7fa9ff;
+    text-decoration: none;
+    color: white;
+}
+.button:active {
+    text-decoration: none;
+    color: white;
+}
+.btn-danger {
+    font-size: 12px;
+    padding: 3px;
+}
+.btn-danger:hover {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+h3 {
+    margin-top: 0px;
+}
+.menu
+{
+    background-color: #00547E;
+    border-bottom: 4px solid #04A3ED;
+    width:100%;
+    height: auto;
+    padding: 0 10px;
+    position: fixed;
+    margin: 0px;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.menu  .navbar-nav > .active > a
+{
+    background-color : #04A3ED;
+    color: white;
+    font-weight: bold;
+}
+
+.menu  .navbar-nav >  li >  a
+{
+    font-size: 13px;
+    color: white;
+    padding: 10px 35px;
+
+}
+.menu  .navbar-nav >  li >  a:hover
+{
+    background-color: #04A3ED;
+}
+
+.navbar-header > a
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px 30px;
+}
+.navbar-header > a:hover
+{
+    text-decoration: none;
+    color: #04A3ED;
+} 
